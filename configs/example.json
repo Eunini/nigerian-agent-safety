@@ -1,0 +1,11 @@
+{
+  "targets": [
+    {"model": "meta-llama/Llama-3.2-3B-Instruct", "revision": "REPLACE_WITH_WEIGHTS_SHA", "endpoint": "http://127.0.0.1:8080/v1", "key_env": "TARGET_API_KEY"},
+    {"model": "Qwen/Qwen2.5-3B-Instruct", "revision": "REPLACE_WITH_WEIGHTS_SHA", "endpoint": "http://127.0.0.1:8082/v1", "key_env": "TARGET_API_KEY"},
+    {"model": "google/gemma-3-4b-it", "revision": "REPLACE_WITH_WEIGHTS_SHA", "endpoint": "http://127.0.0.1:8083/v1", "key_env": "TARGET_API_KEY"},
+    {"model": "REPLACE_WITH_FREE_TIER_COMMERCIAL_MODEL", "revision": "REPLACE_WITH_PROVIDER_VERSION", "endpoint": "https://provider.example.invalid/v1", "key_env": "COMMERCIAL_API_KEY"}
+  ],
+  "translator": {"model": "REPLACE_WITH_REVIEWED_TRANSLATOR", "revision": "REPLACE_WITH_VERSION", "endpoint": "http://127.0.0.1:8084/v1", "key_env": "TRANSLATOR_API_KEY"},
+  "checker": {"model": "REPLACE_WITH_INDEPENDENT_SAFETY_CHECKER", "revision": "REPLACE_WITH_VERSION", "endpoint": "http://127.0.0.1:8085/v1", "key_env": "CHECKER_API_KEY"},
+  "judge": {"model": "REPLACE_WITH_INDEPENDENT_JUDGE", "revision": "REPLACE_WITH_VERSION", "endpoint": "http://127.0.0.1:8086/v1", "key_env": "JUDGE_API_KEY"}
+}
