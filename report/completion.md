@@ -7,7 +7,11 @@ judge, aggregate-only exporter, Wilson intervals, blinded 100-output review
 workflow and agreement/kappa calculation. Core tool-inertness and release tests
 pass when recorded in validation.json.
 
-Pending: configured licensed model endpoints and verified free-tier access;
+Verified: commercial Flash Lite free-tier access; 120 private translations and
+four balanced 30-item native-review sheets prepared. Native review is pending
+at the owner’s request; no human approval or quality scores are claimed.
+
+Pending: configured licensed open-model/checker/judge endpoints; complete
 translations and consenting native reviews; the full experiment; independent
 human judge calibration; paired mitigation analysis; disclosure review where
 needed; final results PDF and public summary post.

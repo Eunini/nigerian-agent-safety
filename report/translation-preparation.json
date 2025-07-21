@@ -1,0 +1,19 @@
+{
+  "prepared_at": "2026-10-26T00:41:24.296835+00:00",
+  "translator": "gemini-3.1-flash-lite-preview",
+  "provider_version": "3.1-flash-lite-preview-03-2026",
+  "review_samples": {
+    "yor": 30,
+    "hau": 30,
+    "ibo": 30,
+    "pcm": 30
+  },
+  "per_language_source_balance": {
+    "harmful": 15,
+    "benign": 15
+  },
+  "native_reviews_completed": 0,
+  "native_review_status": "pending; owner will check tomorrow",
+  "raw_text_location": "ignored private data/raw/; not released",
+  "full_800_translation_set": "pending; these 120 samples are not the complete experimental dataset"
+}

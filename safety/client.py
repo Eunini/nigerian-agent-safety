@@ -26,7 +26,7 @@ class ModelClient:
             headers={"Authorization": "Bearer " + key} if key else {},
         )
 
-    def complete(self, messages, tools=None, max_tokens=512):
+    def complete(self, messages, tools=None, max_tokens=512, response_format=None):
         payload = {
             "model": self.model,
             "messages": messages,
@@ -36,6 +36,8 @@ class ModelClient:
         }
         if tools:
             payload.update(tools=tools, tool_choice="auto")
+        if response_format:
+            payload["response_format"] = response_format
         response = self.client.post("chat/completions", json=payload)
         response.raise_for_status()
         data = response.json()
@@ -44,12 +46,14 @@ class ModelClient:
             raise ValueError("Invalid message schema")
         return message
 
-    def json(self, system, payload):
+    def json(self, system, payload, max_tokens=512):
         message = self.complete(
             [
                 {"role": "system", "content": system},
                 {"role": "user", "content": json.dumps(payload, ensure_ascii=False)},
-            ]
+            ],
+            max_tokens=max_tokens,
+            response_format={"type": "json_object"},
         )
         return json.loads(message.get("content") or "")
 
