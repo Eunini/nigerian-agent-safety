@@ -1,0 +1,19 @@
+{
+  "status": "reviewers located; ratings and adult consent pending",
+  "owner_reported_languages_available": [
+    "yor",
+    "ibo",
+    "pcm"
+  ],
+  "recruitment_pending": [
+    "hau"
+  ],
+  "completed_reviews": {
+    "yor": 0,
+    "ibo": 0,
+    "pcm": 0,
+    "hau": 0
+  },
+  "private_packet_directory": "data/raw/reviewer-packets",
+  "raw_text_released_publicly": false
+}

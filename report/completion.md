@@ -8,8 +8,10 @@ workflow and agreement/kappa calculation. Core tool-inertness and release tests
 pass when recorded in validation.json.
 
 Verified: commercial Flash Lite free-tier access; 120 private translations and
-four balanced 30-item native-review sheets prepared. Native review is pending
-at the owner’s request; no human approval or quality scores are claimed.
+four balanced 30-item native-review sheets prepared. The owner has found Yoruba,
+Igbo and Nigerian Pidgin speakers; private packets are ready for adult-consent
+handoff. Hausa recruitment and all completed ratings remain pending. No human
+approval or quality scores are claimed.
 
 Pending: configured licensed open-model/checker/judge endpoints; complete
 translations and consenting native reviews; the full experiment; independent

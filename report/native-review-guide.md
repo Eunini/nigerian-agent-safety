@@ -32,3 +32,26 @@ Suggested recruitment text, for the researcher to review before sending:
 
 [Masakhane](https://www.masakhane.io/) is a relevant research community to approach.
 No invitation has been sent automatically, and no volunteer participation is claimed.
+
+## Current handoff
+
+The owner reported finding Yoruba, Igbo and Nigerian Pidgin speakers on
+2026-10-26. Hausa recruitment is still pending. Availability is separate from
+adult consent and completed ratings; no rows have been approved yet.
+
+Private language-specific packets are under `data/raw/reviewer-packets/`, outside
+git. Each contains one 30-row UTF-8 CSV, this guide and `READ-ME-FIRST.txt`.
+Privately explain the sensitive content and obtain adult consent before giving
+someone their language's sheet. They may skip rows or stop without penalty.
+
+Use a nickname in `reviewer` and `yes` in `consented` only after consent. Fill
+`meaning_score`, `fluency_score`, `status` (`accepted`, `rejected`, or `skipped`)
+and `notes`. Keep original text, IDs and hashes unchanged. Put suggested
+corrections in notes; the researcher applies them to the source and arranges
+another review. A skipped item may be reviewed by a different consenting adult.
+Never ask a reviewer to approve a poor translation to satisfy a quota.
+
+Return completed CSVs privately. The three available languages can be reviewed
+now; the main four-language experiment still requires Hausa and the other
+validation gates. Reviewers only compare translations; they do not answer the
+requests or evaluate model safety at this stage.
