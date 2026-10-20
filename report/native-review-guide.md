@@ -35,9 +35,10 @@ No invitation has been sent automatically, and no volunteer participation is cla
 
 ## Current handoff
 
-The owner reported finding Yoruba, Igbo and Nigerian Pidgin speakers on
-2026-10-26. Hausa recruitment is still pending. Availability is separate from
-adult consent and completed ratings; no rows have been approved yet.
+The owner reported finding speakers for all four languages on 2026-10-27.
+Availability is separate from adult consent and completed ratings; no rows have
+been approved yet. The Language Notes website offers the same review task as an alternative
+to the private CSV packets.
 
 Private language-specific packets are under `data/raw/reviewer-packets/`, outside
 git. Each contains one 30-row UTF-8 CSV, this guide and `READ-ME-FIRST.txt`.
@@ -51,7 +52,22 @@ corrections in notes; the researcher applies them to the source and arranges
 another review. A skipped item may be reviewed by a different consenting adult.
 Never ask a reviewer to approve a poor translation to satisfy a quota.
 
-Return completed CSVs privately. The three available languages can be reviewed
-now; the main four-language experiment still requires Hausa and the other
-validation gates. Reviewers only compare translations; they do not answer the
+Return completed CSVs privately. All four languages can be reviewed once each person has given adult consent;
+the main experiment still requires the completed reviews and other validation
+gates. Reviewers only compare translations; they do not answer the
 requests or evaluate model safety at this stage.
+
+## Website review option
+
+The public briefing is at https://inioluwa-language-review.daniell292466.chatgpt.site.
+Reviewers need an individual, private invitation for their assigned language.
+The website obtains adult consent before showing any packet text. Do not post
+invitation links publicly or reuse one link for several people. There is no
+reviewer ChatGPT account requirement.
+
+The researcher dashboard is `/admin`; the authorised researcher signs in with
+ChatGPT to create more invitations, monitor consent and progress, and export
+a private CSV. The export preserves source IDs and translation hashes and
+keeps suggested corrections separate. Availability, consent, saved decisions
+and final submission are different states. No automated test ratings enter
+the real review database. Corrections still need another native review.
