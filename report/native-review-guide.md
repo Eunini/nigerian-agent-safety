@@ -59,15 +59,33 @@ requests or evaluate model safety at this stage.
 
 ## Website review option
 
-The public briefing is at https://inioluwa-language-review.daniell292466.chatgpt.site.
-Reviewers need an individual, private invitation for their assigned language.
-The website obtains adult consent before showing any packet text. Do not post
-invitation links publicly or reuse one link for several people. There is no
-reviewer ChatGPT account requirement.
+The public home page is https://inioluwa-language-review.daniell292466.chatgpt.site.
+Send one matching language page directly:
+
+- Yoruba: https://inioluwa-language-review.daniell292466.chatgpt.site/yoruba
+- Igbo: https://inioluwa-language-review.daniell292466.chatgpt.site/igbo
+- Hausa: https://inioluwa-language-review.daniell292466.chatgpt.site/hausa
+- Nigerian Pidgin: https://inioluwa-language-review.daniell292466.chatgpt.site/pidgin
+
+No reviewer account, invitation code or pasted link is needed. The website
+shows a short briefing and obtains explicit adult consent before showing the
+texts. The pages are public; responses are separate browser sessions and
+remain private. Native-speaker status is self-reported, not verified by the
+website. Keep recruitment confirmation private and consider this limitation
+when analysing public-page submissions.
+
+Complete ratings and optional notes save automatically. A reviewer can return
+to the same language page in the same browser to resume. Opening another
+browser begins a separate review. Existing private invitation links still
+work, and an existing session is reused on its language page when possible.
 
 The researcher dashboard is `/admin`; the authorised researcher signs in with
-ChatGPT to create more invitations, monitor consent and progress, and export
-a private CSV. The export preserves source IDs and translation hashes and
-keeps suggested corrections separate. Availability, consent, saved decisions
-and final submission are different states. No automated test ratings enter
-the real review database. Corrections still need another native review.
+ChatGPT. It refreshes every five seconds while visible and distinguishes
+page activity, consent, saved answers and final submission. It shows the
+currently viewed item, the last save time and saved ratings through “View
+answers”. Activity indicates an open page, not verified attention or typing.
+The private CSV export preserves source IDs and translation hashes and keeps
+suggested corrections separate. Corrections still need another native review.
+
+Browser and API tests use harmless synthetic text on loopback only. They do
+not create consent or ratings in the real review database.
