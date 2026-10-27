@@ -1,4 +1,4 @@
-# Do agent safety refusals hold up in Nigerian languages?
+# Safety evaluation for Nigerian-language agents
 
 **Research status: protocol and implementation; model findings are pending.**
 
