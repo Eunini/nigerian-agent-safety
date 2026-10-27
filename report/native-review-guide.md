@@ -31,14 +31,18 @@ Suggested recruitment text, for the researcher to review before sending:
 > comfortable reviewing a sample, your language, and any conditions for taking part.
 
 [Masakhane](https://www.masakhane.io/) is a relevant research community to approach.
-No invitation has been sent automatically, and no volunteer participation is claimed.
+This recruitment text is a template; invitations are not sent automatically. Completed participation is recorded from submitted website reviews.
 
 ## Current handoff
 
 The owner reported finding speakers for all four languages on 2026-10-27.
-Availability is separate from adult consent and completed ratings; no rows have
-been approved yet. The Language Notes website offers the same review task as an alternative
-to the private CSV packets.
+Availability is separate from adult consent and completed ratings. The first
+Yoruba review was submitted on 2026-10-27 with 30 decisions: 23 accepted, seven
+requiring revision, and no skips. Consent and original translation hashes were
+verified during private import. The seven flagged translations have not been
+changed or approved; corrections require another native review. The other
+three language reviews remain pending at the latest sync. The Language Notes
+website offers the same task as an alternative to the private CSV packets.
 
 Private language-specific packets are under `data/raw/reviewer-packets/`, outside
 git. Each contains one 30-row UTF-8 CSV, this guide and `READ-ME-FIRST.txt`.
